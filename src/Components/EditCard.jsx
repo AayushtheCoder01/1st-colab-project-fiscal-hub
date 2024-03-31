@@ -90,8 +90,7 @@ const EditCard = ({ user }) => {
           </div>
           <SheetTitle>Are you absolutely sure?</SheetTitle>
           <SheetDescription>
-            This action cannot be undone. This will permanently delete your account and remove your data from our
-            servers.
+            You are changing your client details permanently in Database.
           </SheetDescription>
         </SheetHeader>
       </SheetContent>
