@@ -21,7 +21,7 @@ const ClientCard = ({ user }) => {
         </div>
         {/* -- */}
         <div className={`flex h-full w-3/12 justify-start items-center text-sm md:text-lg`}>
-          <p className={``}>{address}</p>
+          <p className=''>{address}</p>
         </div>
         {/* -- */}
         <div className={`flex h-full w-3/12 justify-center items-center text-sm md:text-lg`}>
