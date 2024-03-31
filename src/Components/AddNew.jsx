@@ -20,13 +20,13 @@ const AddNewClient = ({addNew}) => {
       })
   return (
     <>
-        <Sheet>
+        <Sheet key={`top`}>
       <SheetTrigger>
       <Button className="h-10 w-auto mb-5 mx-1">
              New Client 
         </Button>
       </SheetTrigger>
-      <SheetContent>
+      <SheetContent side='top'>
         <SheetHeader>
           <div className="grid gap-4 py-4">
             <div className="grid grid-cols-5 items-center gap-1">
