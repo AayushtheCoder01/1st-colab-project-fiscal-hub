@@ -30,7 +30,7 @@ const ClientCard = ({ user }) => {
 
         {edit ? (
           <div className={`flex h-full text-sm md:text-lg relative pr-5 cursor-pointer`}>
-            <p>{<EditCard user={user}/>}</p>
+              {<EditCard user={user}/>}
           </div>
         ) : (
           ''

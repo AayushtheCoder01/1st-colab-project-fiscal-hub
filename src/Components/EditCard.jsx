@@ -39,6 +39,7 @@ const EditCard = ({ user }) => {
                     newName: e.target.value,
                   })
                 }}
+                value={newData.newName}
                 id="name"
                 className="col-span-3"
               />
@@ -52,6 +53,7 @@ const EditCard = ({ user }) => {
                     newEmail: e.target.value,
                   })
                 }}
+                value={newData.newName}
                 id="emeil"
                 className="col-span-3"
               />
@@ -66,6 +68,7 @@ const EditCard = ({ user }) => {
                     newAddress: e.target.value,
                   })
                 }}
+                value={newData.newAddress}
                 id="address"
                 className="col-span-3"
               />
@@ -80,6 +83,7 @@ const EditCard = ({ user }) => {
                     newStatus: e.target.value,
                   })
                 }}
+                value={newData.newStatus}
                 id="status"
                 className="col-span-3"
               />
@@ -90,7 +94,7 @@ const EditCard = ({ user }) => {
           </div>
           <SheetTitle>Are you absolutely sure?</SheetTitle>
           <SheetDescription>
-            You are changing your client details permanently in Database.
+            You are changing your client details permanently in your Database.
           </SheetDescription>
         </SheetHeader>
       </SheetContent>

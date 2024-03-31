@@ -1,7 +1,8 @@
-import React from 'react'
+import React, {useState} from 'react'
 import ClientCard from './ClientCard'
 import { Button } from '../Shadcncomponents/ui/button'
 import { IoSearch } from 'react-icons/io5'
+import AddNewClient from './AddNew'
 
 const ClientDetails = () => {
   const users = [
@@ -24,6 +25,9 @@ const ClientDetails = () => {
       status: 'active',
     },
   ]
+
+  const [addNew, setAddNew] = useState(false)
+
   return (
     <>
       <div className="flex flex-col items-center w-full">
@@ -32,6 +36,7 @@ const ClientDetails = () => {
           <Button className="h-10 w-auto mb-5 mx-1">
             <IoSearch />
           </Button>
+          <AddNewClient/> 
         </div>
 
         <div className={`flex flex-col h-auto border border-2-gray w-10/12 rounded-md`}>
